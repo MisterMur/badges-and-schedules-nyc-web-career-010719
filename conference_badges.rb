@@ -22,6 +22,6 @@ end
 
 def printer(arr)
   # arr = ["Edsger","Ada","Charles","Alan","Grace","Linus","Matz"]
-  puts batch_badge_creator(arr)
+  print batch_badge_creator(arr)
   puts assign_rooms(arr)
 end
