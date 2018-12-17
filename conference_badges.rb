@@ -23,6 +23,13 @@ end
 def printer(arr)
   # arr = ["Edsger","Ada","Charles","Alan","Grace","Linus","Matz"]
 # puts assign_rooms(arr)
-  print batch_badge_creator(arr)
-  # puts assign_rooms(arr)
+  badges= batch_badge_creator(arr)
+  assign= assign_rooms(arr)
+  badges.each do |i|
+    puts i
+  end
+  assign.each do |j|
+    puts j 
+  end
+    
 end
