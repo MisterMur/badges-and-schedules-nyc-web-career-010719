@@ -20,8 +20,8 @@ def assign_rooms(arr)
   return assignments
 end
 
-def printer()
-  arr = ["Edsger","Ada","Charles","Alan","Grace","Linus","Matz"]
-  puts batch_badge_creator()
-  puts assign_rooms
+def printer(arr)
+  # arr = ["Edsger","Ada","Charles","Alan","Grace","Linus","Matz"]
+  puts batch_badge_creator(arr)
+  puts assign_rooms(arr)
 end
